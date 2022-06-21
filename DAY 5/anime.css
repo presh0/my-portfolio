@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+}
+:root{
+    --primary-color:white;
+    --secondary-color:rgb(86, 86, 206);
+    --tertiary-color:rgb(46,26,45);
+}
+.header{
+    
+    display:flex;
+    height:3rem;
+    width:100%;
+    align-items:center;
+    justify-content: space-between;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    padding:0.7rem;
+
+
+}
+ul{
+    display: flex;
+    
+
+}
+li{
+    display:inline;
+    text-transform: capitalize;
+
+
+}
+li a{
+color: var(--primary-color);
+text-decoration: none;
+padding: 7rem;
+
+}
+.container{
+   margin-top: 4rem;
+    
+    height:60vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding-left:2rem;
+
+
+}
+.firstcon{
+    height:100%;
+    width:50%;
+
+}
+.secondcontainer{
+    height:100%;
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    padding-left: 5rem;
+}
+h1{
+    color:var(--primary-color);
+    font-size: 2.3rem;
+    font-weight:bolder;
+
+}
+p{
+    color:var(--primary-color);
+    margin-top: 1rem;
+}
+.firstcon button{
+    width:40%;
+    height: 3rem;
+    border-radius:2rem;
+    margin-top: 3rem;
+    font-size:1.2rem ;
+    background-color:transparent;
+
+}
+form{
+    height:80%;
+    width:50%;
+    background-color:var(--primary-color) ;
+border-radius:1rem;
+right: 0%;
+padding: 2rem;
+box-shadow: 3px 6px 3px 2px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+input{
+    height:10;
+    width: 70;
+    padding:6px;
+    border-radius:6px;
+    margin-top:10px;
+}
+button{
+     
+} 
+
